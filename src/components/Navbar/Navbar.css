@@ -1,6 +1,7 @@
 nav .navItem .title{
-    visibility: hidden;
+    z-index: -1;
+    transition: all .7s ease;
 }
 nav .navItem:hover .title{
-    visibility: visible;
+    z-index: 1;
 }
