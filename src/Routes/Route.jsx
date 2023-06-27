@@ -1,11 +1,12 @@
-import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import Home from "../Pages/Home";
-import About from "../Pages/About";
-import Projects from "../Pages/Projects";
-import Contact from "../Pages/Contact";
+import React from 'react';
+import { createBrowserRouter } from 'react-router-dom';
+import App from '../App';
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Projects from '../Pages/Projects';
+import Contact from '../Pages/Contact';
 
-const route = createBrowserRouter([
+const Route = createBrowserRouter([
     {
         path: '/',
         element: <App></App>,
@@ -19,14 +20,16 @@ const route = createBrowserRouter([
                 element: <About></About>
             },
             {
-                path: '/projects',
+                path: '/portfolio',
                 element: <Projects></Projects>
             },
             {
                 path: '/contact',
                 element: <Contact></Contact>
-            }
+            },
         ])
+
     }
 ])
-export default route;
+
+export default Route;

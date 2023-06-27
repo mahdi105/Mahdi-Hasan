@@ -1,0 +1,6 @@
+nav .navItem .title{
+    visibility: hidden;
+}
+nav .navItem:hover .title{
+    visibility: visible;
+}
