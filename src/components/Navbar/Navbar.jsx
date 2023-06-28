@@ -7,7 +7,7 @@ import './Navbar.css'
 const Navbar = () => {
     const navigate = useNavigate();
     return (
-        <header data-aos="fade-up" className='absolute top-0 left-0 flex flex-col items-center gap-16 h-[90vh] w-[70px] p-3 rounded-full border-2 border-gray-500'>
+        <header data-aos="fade-up" className='flex flex-col items-center gap-16 h-[90vh] w-[70px] p-3 rounded-full border-2 border-gray-500'>
             <div className='flex justify-center items-center'>
                 <img onClick={() => navigate('/')} className='cursor-pointer w-[100%] border p-1 rounded-full shadow-sm bg-gray-700 shadow-white' src="https://i.ibb.co/xfVYZFF/letter-m-2.png" alt="Logo" />
             </div>
