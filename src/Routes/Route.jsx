@@ -4,6 +4,7 @@ import App from '../App';
 import About from '../Pages/About';
 import Projects from '../Pages/Projects';
 import Contact from '../Pages/Contact';
+import Resume from '../Pages/Resume';
 
 const Route = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const Route = createBrowserRouter([
                 path: '/contact',
                 element: <Contact></Contact>
             },
+            {
+                path: '/resume',
+                element: <Resume></Resume>
+            }
         ])
 
     }
