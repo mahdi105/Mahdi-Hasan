@@ -5,22 +5,17 @@ import PageTitle from '../components/PageTitle/PageTitle';
 import CountUp from 'react-countup';
 import Count from '../components/Count/Count';
 import { Helmet } from 'react-helmet-async';
+import Subtitle from '../components/Subtitle/Subtitle';
 
 const About = () => {
-
     return (
         <main className='md:pl-8 lg:pl-0'>
             <Helmet>
                 <title>About Me | Mahdi Hasan</title>
             </Helmet>
             <PageTitle image='https://i.ibb.co/3BdDLSz/Untitled-design-2-removebg-preview.png' title='About Me'></PageTitle>
-            <div>
-                <h3 className='flex items-center gap-3 mb-3'>
-                    <span style={{ fontFamily: 'Poppins' }} className='text-[17px] font-semibold text-white'>Who I Am</span>
-                    <span className='text-blue-600 text-xl'><FaBahai></FaBahai></span>
-                </h3>
-            </div>
-            <div>
+            <Subtitle title='Who I Am'></Subtitle>
+            <div data-aos="zoom-in-right" data-aos-duration="800">
                 <p className='mb-3'>
                     <span style={{ fontFamily: 'Poppins' }} className='text-[18px] text-gray-100'>Hello, I'm </span>
                     <br />
@@ -50,7 +45,7 @@ const About = () => {
                     A junior MERN Stack Developer passionate about creating web applications. I have hands-on experience with the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I enjoy problem-solving and continuously learning new technologies to improve my skills. I'm enthusiastic about collaborating with experienced professionals and contributing to impactful projects.
                 </p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 pb-2 mb-10 lg:mb-10 gap-3 md:gap-10 lg:gap-8'>
+            <div data-aos="zoom-in-right" data-aos-duration="800" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 pb-2 mb-10 lg:mb-10 gap-3 md:gap-10 lg:gap-8'>
                 <div className='flex flex-col items-center shadow-sm shadow-blue-700 md:shadow-none py-6 rounded-md md:rounded-none md:p-0 md:border-r md:border-gray-600 '>
                     <Count suff='0+' max={0} title='Years Of Experience'></Count>
                 </div>

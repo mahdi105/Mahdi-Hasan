@@ -5,6 +5,7 @@ import ProfileCard from './components/ProfileCard/ProfileCard'
 import { useEffect } from 'react'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import TsParticle from './components/TsParticle/TsParticle'
 
 function App() {
     useEffect(()=>{
@@ -15,12 +16,13 @@ function App() {
     })
     return (
         <>
-            <section className='bg-[#040718f4] min-h-[100vh]'>
+            <section className='bg-transparent min-h-[100vh]'>
+                <TsParticle></TsParticle>
                 <div className='container mx-auto px-2 md:px-10 lg:px-16 pt-10 pb-12 lg:pt-8 lg:pb-6 grid grid-cols-1 md:grid-cols-12'>
-                    <div className='md:col-span-1 lg:col-span-1'>
+                    <div className='md:col-span-1 lg:col-span-1 z-50'>
                         <Navbar></Navbar>
                     </div>
-                    <div className='md:mb-4 md:col-span-11 lg:col-span-8 md:pl-12 lg:pr-12'>
+                    <div className='mb-8 md:mb-4 md:col-span-11 lg:col-span-8 md:pl-12 lg:pr-12'>
                         <Outlet></Outlet>
                     </div>
                     <div className='md:col-span-12 lg:col-span-3'>

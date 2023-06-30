@@ -5,9 +5,9 @@ import PDFDownloadBtn from '../PDFDownloadBtn/PDFDownloadBtn';
 
 const ProfileCard = () => {
     return (
-        <div style={{ boxShadow: '0px -15px #9538f9a3 inset' }} className='p-4 rounded-lg bg-gradient-to-b from-[#9638F9] to-blue-700 md:grid grid-cols-2 lg:grid-cols-none'>
-            <div className='mb-3 p-6 lg:p-0'>
-                <img className='w-9/12 mx-auto md:w-full min-h-[350px] md:min-h-[250px]  rounded-lg object-cover md:object-contain lg:object-cover' src="https://i.ibb.co/09PTpsg/Untitled-design.png" alt="" />
+        <div data-aos="fade-left"  data-aos-offset="200" data-aos-duration="800"  style={{ boxShadow: '0px -15px #9538f9a3 inset' }} className='p-4 rounded-lg bg-gradient-to-b from-[#9638F9] to-blue-700 md:grid grid-cols-2 lg:grid-cols-none'>
+            <div className='mb-3 p-1 md:p-6 lg:p-0'>
+                <img className='w-full mx-auto md:w-full min-h-[350px] md:min-h-[250px]  rounded-lg object-cover md:object-contain lg:object-cover' src="https://i.ibb.co/09PTpsg/Untitled-design.png" alt="" />
             </div>
             <div className='flex justify-center items-center lg:flex-none'>
                 <div>
