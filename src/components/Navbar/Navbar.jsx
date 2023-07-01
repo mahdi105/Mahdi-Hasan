@@ -41,16 +41,7 @@ const Navbar = () => {
                             <span>Projects</span>
                         </span>
                     </Link>
-                    <hr className="border-gray-700" />
-                    <Link className='navItem relative text-[24px] rounded-full p-2 transition-all duration-200 text-gray-300' to='/skills'>
-                        <FaLaptopCode></FaLaptopCode>
-                        <span className='title absolute shadow-sm shadow-purple-400 top-0 -left-[11px] text-[12px] w-[130px] py-2 px-3 rounded-full bg-gradient-to-r from-blue-600 to-[#9638F9] font-bold uppercase flex justify-center items-center gap-1'>
-                            <span className='text-xl'>
-                                <FaLaptopCode></FaLaptopCode>
-                            </span>
-                            <span>Skills</span>
-                        </span>
-                    </Link>
+                    
                     <hr className="border-gray-700" />
                     <Link title='Portfolio' className='navItem relative text-[24px] rounded-full p-2 transition-all duration-200 text-gray-300' to='/contact'>
                         <FaRegAddressBook></FaRegAddressBook>
