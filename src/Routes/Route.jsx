@@ -16,16 +16,16 @@ const Route = createBrowserRouter([
                 element: <About></About>
             },
             {
-                path: '/portfolio',
-                element: <Projects></Projects>
-            },
-            {
                 path: '/contact',
                 element: <Contact></Contact>
             },
             {
                 path: '/resume',
                 element: <Resume></Resume>
+            },
+            {
+                path: '/projects',
+                element: <Projects></Projects>
             }
         ])
 

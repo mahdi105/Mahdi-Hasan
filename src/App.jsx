@@ -29,8 +29,8 @@ function App() {
                         <ProfileCard></ProfileCard>
                     </div>
                 </div>
-                <footer className='text-center py-5 bg-[#00001c]'>
-                    &copy; Copyright 2023. Allright Reserved By <span className='text-[#1c1c56]'>Mahdi Hasan</span>
+                <footer className='text-center py-5 bg-[#00001c] text-slate-500'>
+                    &copy; Copyright 2023. Allright Reserved By <span className='text-blue-800'>Mahdi Hasan</span>
                 </footer>
             </section>
         </>

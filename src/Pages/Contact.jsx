@@ -16,7 +16,7 @@ const Contact = () => {
         const contact = form.number.value;
         const subject = form.subject.value;
         const contactInfo = {name, email, message, contact, subject};
-        fetch('http://localhost:5000/contact',{
+        fetch('https://portfolio-mahdi-hasan-server.vercel.app/contact',{
             method: "POST",
             headers: {
                 'content-type': 'application/json'

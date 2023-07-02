@@ -14,12 +14,11 @@ const About = () => {
                 <title>About Me | Mahdi Hasan</title>
             </Helmet>
             <PageTitle image='https://i.ibb.co/3BdDLSz/Untitled-design-2-removebg-preview.png' title='About Me'></PageTitle>
-            <Subtitle title='Who I Am'></Subtitle>
+            {/* <Subtitle title='Who I Am'></Subtitle> */}
             <div data-aos="zoom-in-right" data-aos-duration="800">
-                <p className='mb-3'>
-                    <span style={{ fontFamily: 'Poppins' }} className='text-[18px] text-gray-100'>Hello, I'm </span>
-                    <br />
-                    <span className='text-[2.3rem]'>
+                <p style={{ fontFamily: 'Poppins' }} className='text-[18px] text-gray-100 mb-4'>Hello, I'm</p>
+                <p className='mb-1'>
+                    <span className='text-[2.6rem] leading-[2.3rem]'>
                         <TypeAnimation
                             sequence={[
                                 'Mahdi Hasan.', // Types 'One'
@@ -28,7 +27,7 @@ const About = () => {
                                 1000,
                                 'Mahdi Hasan.',
                                 () => {
-                                    console.log('Sequence completed');
+                                    // console.log('Sequence completed');
                                 },
                             ]}
                             wrapper="span"
@@ -36,13 +35,13 @@ const About = () => {
                             speed={{ type: 'keyStrokeDelayInMs', value: 250 }}
                             deletionSpeed={90}
                             repeat={Infinity}
-                            style={{ display: 'inline-block', fontFamily: 'Poppins', fontWeight: '600', background: 'linear-gradient(to right, blue, #9638F9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
+                            style={{fontFamily:'Poppins', display: 'inline-block', fontFamily: 'Poppins', fontWeight: '600', background: 'linear-gradient(to right, blue, #9638F9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
                         />
                     </span>
-
                 </p>
-                <p style={{ fontFamily: 'Poppins' }} className='text-gray-100 text-[13px] md:text-[15px] md:text-justify'>
-                    A junior MERN Stack Developer passionate about creating web applications. I have hands-on experience with the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I enjoy problem-solving and continuously learning new technologies to improve my skills. I'm enthusiastic about collaborating with experienced professionals and contributing to impactful projects.
+                <p style={{fontFamily:'Poppins'}} className='text-[1.4rem] text-purple-400 font-semibold mb-4 '>Junior MERN Stack Developer</p>
+                <p style={{ fontFamily: 'Poppins' }} className='text-gray-300 text-[13px] md:text-[15px] md:text-justify py-3 px-4 rounded-xl bg-slate-900'>
+                    Passionate about creating web applications. I have hands-on experience with the MERN stack, including MongoDB, Express.js, React.js, and Node.js. I enjoy problem-solving and continuously learning new technologies to improve my skills. I'm enthusiastic about collaborating with experienced professionals and contributing to impactful projects.
                 </p>
             </div>
             <div data-aos="zoom-in-right" data-aos-duration="800" className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pt-8 pb-2 mb-10 lg:mb-10 gap-3 md:gap-10 lg:gap-8'>
