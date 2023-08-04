@@ -32,7 +32,7 @@ const Projects = () => {
                                     Instructors.
                                 </li>
                             </ul>
-                            <div className='flex flex-wrap lg:flex-nowrap items-center gap-2 py-1 px-2'>
+                            <div className='flex flex-wrap xl:flex-nowrap items-center gap-2 py-1 px-2'>
                                 <Link to='https://summer-camp-31643.web.app/' className='btn btn-xs btn-success'>Live Link</Link>
                                 <Link to='https://github.com/mahdi105/Project-K-Summer-Camp-Client' className='btn btn-xs btn-success'>Client Repo</Link>
                                 <Link to='https://github.com/mahdi105/Project-K-Summer-Camp-Server' className='btn btn-xs btn-success'>Server Repo</Link>
@@ -52,7 +52,7 @@ const Projects = () => {
                                 <li>Integrated Firebase authentication system.</li>
                                 <li>Facilitated Login and Registration System</li>
                             </ul>
-                            <div className='flex flex-wrap lg:flex-nowrap items-center gap-2 py-1 px-2'>
+                            <div className='flex flex-wrap xl:flex-nowrap items-center gap-2 py-1 px-2'>
                                 <Link to='https://toy-town-fc89b.firebaseapp.com/' className='btn btn-xs btn-success'>Live Link</Link>
                                 <Link to='https://github.com/mahdi105/Project-J-Toy-Town-Client' className='btn btn-xs btn-success'>Client Repo</Link>
                                 <Link to='https://github.com/mahdi105/Project-J-Toy-Town-Server' className='btn btn-xs btn-success'>Server Repo</Link>
@@ -75,7 +75,7 @@ const Projects = () => {
                         </div>
                         <div className='p-5 rounded-xl'>
                             <h2 style={{ fontFamily: 'Poppins', background: 'linear-gradient(to right,#9638F9, blue, #9638F9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className='text-2xl uppercase font-bold mb-3'>Chef Recipes</h2>
-                            <p className='text-sm text-slate-400 mb-1'><span className='text-white font-bold'>Type: </span> Sports Academy</p>
+                            <p className='text-sm text-slate-400 mb-1'><span className='text-white font-bold'>Type: </span> Recipes Information</p>
                             <p className='text-sm text-slate-400 mb-2'><span className='text-white font-bold'>Technology: </span>React.js, Express.js/Node.js, MongoDb, Firebase, TailwindCss</p>
                             <p style={{ background: 'linear-gradient(to right,#9638F9, blue, #9638F9, blue, #9638F9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className='text-lg font-bold mb-1'>Features-</p>
                             <ul className='list-disc pl-5 text-slate-400 mb-4'>
@@ -83,7 +83,7 @@ const Projects = () => {
                                 <li>Integrated Firebase authentication system</li>
                                 <li>Users can explore different recipes of a Chef on a specific page</li>
                             </ul>
-                            <div className='flex flex-wrap lg:flex-nowrap items-center gap-2 py-1 px-2'>
+                            <div className='flex flex-wrap xl:flex-nowrap items-center gap-2 py-1 px-2'>
                                 <Link to='https://chef-recipes-hut.firebaseapp.com/' className='btn btn-xs btn-success'>Live Link</Link>
                                 <Link to='https://github.com/mahdi105/Project-I-Chef-Recipe-Client' className='btn btn-xs btn-success'>Client Repo</Link>
                                 <Link to='https://github.com/mahdi105/Project-I-Chef-Recipe-Server' className='btn btn-xs btn-success'>Server Repo</Link>

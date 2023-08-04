@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '/Mahdi_Hasan_Resume.pdf';
+import resume from '/Mahdi Hasan _ MERN Stack Developer.pdf';
 import { FaDownload } from 'react-icons/fa6';
 const PDFDownloadBtn = () => {
     const handleDownload = () => {
