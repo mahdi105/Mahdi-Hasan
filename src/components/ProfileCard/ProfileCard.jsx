@@ -16,7 +16,7 @@ const ProfileCard = () => {
                     {/* Resume Download Button */}
                     <PDFDownloadBtn></PDFDownloadBtn>
                     <div className='flex items-center justify-center gap-5 text-white mb-5'>
-                        <Link to='https://www.linkedin.com/in/mahdi-hasan-5b115a227/' className='hover:text-black transition-all duration-300'><FaLinkedinIn></FaLinkedinIn></Link>
+                        <Link to='https://www.linkedin.com/in/mahdi-hasan-mern/' className='hover:text-black transition-all duration-300'><FaLinkedinIn></FaLinkedinIn></Link>
                         <Link to='https://github.com/mahdi105' className='hover:text-black transition-all duration-300'><FaGithub></FaGithub></Link>
                         <Link to='https://www.facebook.com/mahdi.hassan.5623' className='hover:text-black transition-all duration-300'><FaFacebookF></FaFacebookF></Link>
                         <Link to='https://twitter.com/MahdiHasan105' className='hover:text-black transition-all duration-300'><FaTwitter></FaTwitter></Link>
